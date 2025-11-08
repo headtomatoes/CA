@@ -21,7 +21,7 @@ main:
     srl     $t1,    $t1,    4  # shift t1 right by 4 bits
 
     andi    $t3,    $t1,    0xF 
-
+n
     or      $t2,    $t2,    $t3 
     sll     $t2,    $t2,    4  
     srl     $t1,    $t1,    4  
